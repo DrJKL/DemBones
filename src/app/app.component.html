@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+
+<section>
+  <div *ngFor="let roll of game.currentRoll" class="individual-die">{{roll}}</div>
+</section>
+
+<h2 (click)="game.rollDice()">{{game.currentRoll}} = {{game.total()}}</h2>

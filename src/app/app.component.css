@@ -1,0 +1,17 @@
+h2 {
+    cursor: pointer;
+    -webkit-user-select: none;
+    font-family: Courier New, Courier, monospace;
+}
+
+.individual-die {
+    font-family: Courier New, Courier, monospace;
+    border: 1px solid black;
+
+    width: 2em;
+    height: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
